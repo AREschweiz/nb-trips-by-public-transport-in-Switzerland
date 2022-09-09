@@ -35,7 +35,7 @@ These results are available for the general population. They are also differenti
 - Day of the week (monday to friday, saturday, sunday)
 
 ## Results
-The results can be found in the CSV file <a href="https://github.com/antonindanalet/nb-trips-by-public-transport-in-Switzerland/blob/master/data/output/nb_trips_per_person.csv">nb_trips_per_person.csv</a> in `data/output/`.
+The results can be found in the CSV file <a href="https://github.com/AREschweiz/nb-trips-by-public-transport-in-Switzerland/blob/master/data/output/nb_trips_per_person.csv">nb_trips_per_person.csv</a> in `data/output/`.
 
 ## Getting started
 These instructions will get you a copy of the code up and running on your local machine for reproducing the result and understanding how it has been generated.
@@ -45,7 +45,7 @@ To run the code itself, you need python 3, pandas and numpy.
 For it to produce the results, you also need the raw data of the Transport and Mobility Microcensus 2015, not included on GitHub. These data are individual data and therefore not open. You can however get them by filling in this form in <a href="https://www.are.admin.ch/are/de/home/verkehr-und-infrastruktur/grundlagen-und-daten/mzmv/datenzugang.html">German</a>, <a href="https://www.are.admin.ch/are/fr/home/mobilite/bases-et-donnees/mrmt/accesauxdonnees.html">French</a> or <a href="https://www.are.admin.ch/are/it/home/mobilita/basi-e-dati/mcmt/accessoaidati.html">Italian</a>. The cost of the data is available in the document "<a href="https://www.are.admin.ch/are/de/home/medien-und-publikationen/publikationen/grundlagen/mikrozensus-mobilitat-und-verkehr-2015-mogliche-zusatzauswertung.html">Mikrozensus Mobilität und Verkehr 2015: Mögliche Zusatzauswertungen</a>"/"<a href="https://www.are.admin.ch/are/fr/home/media-et-publications/publications/bases/mikrozensus-mobilitat-und-verkehr-2015-mogliche-zusatzauswertung.html">Microrecensement mobilité et transports 2015: Analyses supplémentaires possibles</a>".
 
 ### Run the code
-Please copy the files `wegeinland.csv` and `zielpersonen.csv` from 2015 that you receive from the Swiss Federal Statistical Office (FSO) in the folders "<a href="https://github.com/antonindanalet/nb-trips-by-public-transport-in-Switzerland/tree/master/data/input">data/input</a>". Then run <a href="https://github.com/antonindanalet/nb-trips-by-public-transport-in-Switzerland/blob/master/src/run_nb_trips_by_public_transport.py">run_availability_of_parking.py</a>.
+Please copy the files `wegeinland.csv` and `zielpersonen.csv` from 2015 that you receive from the Swiss Federal Statistical Office (FSO) in the folders "<a href="https://github.com/AREschweiz/nb-trips-by-public-transport-in-Switzerland/tree/master/data/input">data/input</a>". Then run <a href="https://github.com/AREschweiz/nb-trips-by-public-transport-in-Switzerland/blob/master/src/run_nb_trips_by_public_transport.py">run_availability_of_parking.py</a>.
 
 DO NOT commit or share in any way these two CSV-files! These are personal data.
 
